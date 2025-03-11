@@ -12,12 +12,11 @@ The project includes the following key components:
   - **Linear Regression**: A simple linear model to predict charges.
   - **Random Forest**: A robust ensemble learning algorithm for better accuracy.
   - **XGBoost**: A powerful boosting model known for high performance.
-- **Jupyter Notebook (HTML format)**: The code used to load, clean, and analyze the dataset, as well as to train the machine learning models.
+- **Jupyter Notebook and HTML**: The code used to load, clean, and analyze the dataset, as well as to train the machine learning models. Both the Jupyter Notebook (.ipynb) and its HTML version are included in a ZIP file named **insurance**.
 - **Power BI Report (.pbix format)**: A Power BI report that visualizes the results and insights obtained from the dataset and model predictions.
 
 ## Files Included
-- **insurance.ipynb**: The Jupyter Notebook file containing the data analysis and model training process.
-- **insurance.html**: The HTML version of the Jupyter Notebook, which can be opened in a web browser.
+- **insurance.zip**: Contains the Jupyter Notebook file (.ipynb) and its HTML version.
 - **insurance_report.pbix**: The Power BI report file that contains visualizations based on the dataset and model predictions.
 
 ## Requirements
@@ -34,3 +33,4 @@ You can install the required libraries using pip:
 
 ```bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn
+
